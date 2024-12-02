@@ -1,0 +1,21 @@
+@keyframes moveRightToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animated-text {
+    display: inline-block; /* Ensure the animation works within the parent container */
+    white-space: nowrap; /* Prevent text wrapping */
+    animation: moveRightToLeft 20s linear infinite;
+    font-weight: normal; 
+    transition: font-weight 0.3s ease, color 0.3s ease; 
+  }
+  
+  .animated-text:hover {
+    animation-play-state: paused; 
+  }
+  

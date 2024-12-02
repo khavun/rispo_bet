@@ -1,0 +1,176 @@
+@keyframes enimationOne {
+    0% {
+      top: 0;
+      left: 20%;  /* Start at the center horizontally */
+      transform: translateX(-50%) rotate(0deg);  /* No swing at the start */
+    }
+    10% {
+      top: 10vh;
+      left: calc(20% + 100px);  
+      transform: translateX(-20%) rotate(0deg);  
+    }
+    20% {
+      top: 20vh;
+      left: calc(20% - 100px); 
+      transform: translateX(-20%) rotate(0deg);  
+    }
+    30% {
+      top: 30vh;
+      left: calc(20% + 100px);  
+      transform: translateX(-20%) rotate(0deg); 
+    } 
+    40% {
+        top: 40vh;
+        left: calc(20% - 100px);  
+        transform: translateX(-20%) rotate(0deg); 
+    } 
+    50% {
+        top: 50vh;
+        left: calc(20% + 100px);  
+        transform: translateX(-20%) rotate(0deg); 
+      } 
+    60% {
+        top: 60vh;
+        left: calc(20% - 100px);  
+        transform: translateX(-20%) rotate(0deg); 
+    }
+    70% {
+        top: 70vh;
+        left: calc(20% + 100px);  
+        transform: translateX(-20%) rotate(0deg); 
+    }
+    80% {
+        top: 80vh;
+        left: calc(20% - 100px);  
+        transform: translateX(-20%) rotate(0deg); 
+    }
+    90% {
+        top: 90vh;
+        left: calc(20% + 100px);  
+        transform: translateX(-50%) rotate(0deg); 
+    }
+    100% {
+      top: 100vh;  
+      left: 20%;    
+      transform: translateX(-20%) rotate(0deg);  
+    }
+  }
+
+
+  @keyframes enimationTwo {
+    0% {
+      top: 0;
+      left: 50%;  
+      transform: translateX(-50%) rotate(0deg);  
+    }
+    10% {
+      top: 10vh;
+      left: calc(50% - 100px);  
+      transform: translateX(-50%) rotate(-5deg);  
+    }
+    20% {
+      top: 20vh;
+      left: calc(50% + 100px); 
+      transform: translateX(-50%) rotate(0deg);  
+    }
+    30% {
+      top: 30vh;
+      left: calc(50% - 100px);  
+      transform: translateX(-50%) rotate(0deg); 
+    } 
+    40% {
+        top: 40vh;
+        left: calc(50% + 100px);  
+        transform: translateX(-50%) rotate(0deg); 
+    } 
+    50% {
+        top: 50vh;
+        left: calc(50% - 100px);  
+        transform: translateX(-50%) rotate(0deg); 
+      } 
+    60% {
+        top: 60vh;
+        left: calc(50% + 100px);  
+        transform: translateX(-50%) rotate(0deg); 
+    }
+    70% {
+        top: 70vh;
+        left: calc(50% - 100px);  
+        transform: translateX(-50%) rotate(0deg); 
+    }
+    80% {
+        top: 80vh;
+        left: calc(50% + 100px);  
+        transform: translateX(-50%) rotate(0deg); 
+    }
+    90% {
+        top: 90vh;
+        left: calc(50% - 100px);  
+        transform: translateX(-50%) rotate(0deg); 
+    }
+    100% {
+      top: 100vh;  
+      left: 50%;    
+      transform: translateX(-50%) rotate(0deg);  
+    }
+  }
+
+  @keyframes enimationThree {
+    0% {
+      top: 0;
+      left: 80%;  /* Start at the center horizontally */
+      transform: translateX(-80%) rotate(0deg);  /* No swing at the start */
+    }
+    10% {
+      top: 10vh;
+      left: calc(80% + 100px);  
+      transform: translateX(-80%) rotate(0deg);  
+    }
+    20% {
+      top: 20vh;
+      left: calc(80% - 100px); 
+      transform: translateX(-80%) rotate(0deg);  
+    }
+    30% {
+      top: 30vh;
+      left: calc(80% + 100px);  
+      transform: translateX(-80%) rotate(0deg); 
+    } 
+    40% {
+        top: 40vh;
+        left: calc(80% - 100px);  
+        transform: translateX(-80%) rotate(0deg); 
+    } 
+    50% {
+        top: 50vh;
+        left: calc(80% + 100px);  
+        transform: translateX(-80%) rotate(0deg); 
+      } 
+    60% {
+        top: 60vh;
+        left: calc(80% - 100px);  
+        transform: translateX(-80%) rotate(0deg); 
+    }
+    70% {
+        top: 70vh;
+        left: calc(80% + 100px);  
+        transform: translateX(-80%) rotate(0deg); 
+    }
+    80% {
+        top: 80vh;
+        left: calc(80% - 100px);  
+        transform: translateX(-80%) rotate(0deg); 
+    }
+    90% {
+        top: 90vh;
+        left: calc(80% + 100px);  
+        transform: translateX(-80%) rotate(0deg); 
+    }
+    100% {
+      top: 100vh;  
+      left: 80%;    
+      transform: translateX(-80%) rotate(0deg);  
+    }
+  }
+  
+  

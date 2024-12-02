@@ -1,0 +1,31 @@
+/* Container for the carousel */
+.carousel-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  /* Flex container for sliding images */
+  .carousel-slide {
+    display: flex;
+    transition: transform 1s ease-in-out; /* Smooth sliding effect */
+  }
+  
+  /* Each carousel item (image container) */
+  .carousel-item {
+    flex: 0 0 25%; /* Display 4 images (100% / 4) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Image styling */
+  .carousel-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures images maintain aspect ratio */
+  }
+  

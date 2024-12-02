@@ -1,0 +1,60 @@
+/* Ensure the carousel wrapper fills the container */
+.carousel-wrapper {
+  width: 100%;
+  max-width: 840px;
+  height: auto;
+  aspect-ratio: 840 / 482;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Carousel container for flex display */
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.carousel-image {
+  flex: 0 0 25%; /* Show 4 images at once (100% / 4) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue; /* Optional styling */
+}
+
+.carousel-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Animation for sliding images */
+@keyframes slideNext {
+  0% {
+    transform: translateY(0); /* Start at the original position */
+  }
+  100% {
+    transform: translateY(-100%); /* Move the whole carousel to the next set of rows */
+  }
+}
+
+/* Custom styles for active sliding transition */
+.carousel-active {
+  animation: slideNext 20s linear infinite; /* Infinite loop for auto sliding */
+}
+
+/* Add the animation class */
+.table-row-animation {
+  animation: slideUp 20s linear forwards; /* Ensure the row slides in correctly */
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%); /* Start from below */
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0); /* Move to original position */
+    opacity: 1;
+  }
+}
